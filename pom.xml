@@ -10,9 +10,9 @@
     <url>https://github.com/rcongiu/Hive-JSON-Serde</url>
     <scm>
         <!-- Replace the connection below with your project connection -->
-        <connection>scm:git:git@github.com:rcongiu/Hive-JSON-Serde.git</connection>
-        <developerConnection>scm:git:git@github.com:rcongiu/Hive-JSON-Serde.git</developerConnection>
-        <url>scm:git:git@github.com:rcongiu/Hive-JSON-Serde.git</url>
+        <connection>scm:git:git@github.com:leboncoin/Hive-JSON-Serde.git</connection>
+        <developerConnection>scm:git:git@github.com:leboncoin/Hive-JSON-Serde.git</developerConnection>
+        <url>scm:git:git@github.com:leboncoin/Hive-JSON-Serde.git</url>
 
         <tag>HEAD</tag>
     </scm>
@@ -111,6 +111,10 @@
             <id>Cloudera</id>
             <name>Cloudera Maven Repo</name>
             <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+        </repository>
+        <repository>
+            <id>huaweicloud-repo</id>
+            <url>https://repo.huaweicloud.com/repository/maven/huaweicloudsdk/</url>
         </repository>
     </repositories>
 
@@ -240,14 +244,6 @@
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>ssh-repository</id>
-            <url>scpexe://www.congiu.net:/home/rcongiu/congiu.net/hive-json-serde</url>
-        </repository>
-    </distributionManagement>
 </project>

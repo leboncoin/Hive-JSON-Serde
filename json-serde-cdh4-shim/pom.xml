@@ -8,7 +8,6 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.openx.data</groupId>
 	<artifactId>json-serde-cdh4-shim</artifactId>
 	<packaging>jar</packaging>
 
